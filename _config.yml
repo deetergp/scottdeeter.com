@@ -13,8 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: scottdeeter.com
+title: Scott Deeter
 email: scott@scottdeeter.com
+author: Scott Deeter
 description: > # this means to ignore newlines until "baseurl:"
   My name is Scott Deeter, but most people just call me Deeter. I like writing code, making
   music, riding bikes, and hanging out with my wife, Alissa and three incredible daugthers.
