@@ -1,0 +1,25 @@
+---
+title: Blog
+permalink: /blog/
+layout: default
+---
+
+<div class="home">
+  <div class="posts">
+    {% for post in site.posts %}
+      {% if post.archive != true %}
+        <div class="post">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+            <h3 class="h3 post-title">{{ post.title }}</h3>
+          </a>
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <p class="post-summary">
+            {% if post.summery %}
+            {{ post.summary }}
+            {% endif %}
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
