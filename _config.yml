@@ -27,6 +27,9 @@ instagram_username: deetergp
 timezone: America\New_York
 google_analytics: UA-26528418-1
 
+sass:
+  compressed: true
+
 # Build settings
 markdown: kramdown
 theme: minima
