@@ -1,0 +1,6 @@
+---
+layout: post
+title: Using Drush to Download Repos
+---
+
+<div class="field field-name-field-blog-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/content/using-drush-download-repos"><img typeof="foaf:Image" src="http://scottdeeter.com/sites/default/files/styles/thumbnail/public/images/drush-n-git_0.png?itok=o7FJOfdA" width="100" height="43" alt="Drush + Git = BFF" title="Drush + Git = BFF" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I recently found myself in a situation where I needed to programmatically download a module's git repo rather than the module itself. We use Jenkins continuous integration at Classic to run a battery of tests against our repos. One such test is <code>drush coder</code> which, when it it passes, is great. But when <code>drush coder --minor</code> finds a problem, it ends up causing Drush to terminate abnormally and throw an error that says as much.</p></div></div></div>
