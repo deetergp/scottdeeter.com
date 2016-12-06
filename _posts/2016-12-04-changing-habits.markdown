@@ -4,7 +4,7 @@ title: Changing Habits
 summary: An update about where my walking habit has taken me since my last post on the subject.
 ---
 
-It's been a while since I posted about my [walking habit](content/smoking-and-walking) and figured it was time to write
+It's been a while since I posted about my [walking habit](/2015/02/08/smoking-and-walking.html) and figured it was time to write
 a follow-up and talk about how that habit has changed in the interim. I don't want to focus too much on technology, that
 can be saved for another post, but I will mention it in the abstract because it does play a role. When I started my
 walking habit, I used my phone to track my steps, but after while I purchased a wearable. The device tracked steps,
