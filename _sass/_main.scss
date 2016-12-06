@@ -1,4 +1,5 @@
-$font-color-1: #333;
+$font-color-1: #555;
+$header-color: #4f0777;
 $header-font-family: 'Lustria', serif;
 $body-font-family: 'Lato', sans-serif;
 $a-tags: 'a, a:active, a:hover, a:visited';
@@ -24,24 +25,28 @@ body {
   font-family: $body-font-family;
   font-weight: 400;
   line-height: 1.45rem;
+  background-color: #eee;
 }
 
 p { margin-bottom: 1.3rem }
 
-a, a:visited {
+a {
   text-decoration: none;
-  color: $font-color-1;
+  color: $header-color;
+  &:visited {
+    color: $header-color;
+  }
+  &:active {
+    color: #AF0D69;
+  }
 }
-a:active {
-  color: orange;
-}
-
 
 h1, h2, h3 {
   font-family: $header-font-family;
   font-weight: 900;
   margin: 1.414rem 0 0.5rem;
   line-height: 1.2;
+  color: $header-color;
 }
 
 h1 {
@@ -85,8 +90,9 @@ header {
     text-align: left;
   }
   .site-title {
-    font-size: 1.25em;
+    color: $header-color;
     display: block;
+    font-size: 1.25em;
     @media screen and (min-width: $body-width) {
       float: left;
     }
