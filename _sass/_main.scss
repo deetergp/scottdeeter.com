@@ -74,6 +74,7 @@ header {
   color: lighten($font-color-1, 33%);
   font-size: 0.75rem;
   font-style: italic;
+  margin-top: 0;
 }
 
 .content,
@@ -114,5 +115,11 @@ header {
         text-decoration: underline;
       }
     }
+  }
+}
+
+.posts {
+  p.post-summary {
+    margin-bottom: 0;
   }
 }
