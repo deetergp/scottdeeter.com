@@ -4,6 +4,12 @@ $body-font-family: 'Lato', sans-serif;
 $a-tags: 'a, a:active, a:hover, a:visited';
 $a-tags-hover: 'a:active, a:hover';
 
+$body-width: 38rem;
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+}
+
 html { font-size: 1.25rem }
 
 html, body {
@@ -46,6 +52,14 @@ header {
   margin: 1rem 0 1.45rem 0;
 }
 
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
 .post-meta {
   color: lighten($font-color-1, 33%);
   font-size: 0.75rem;
@@ -54,24 +68,34 @@ header {
 
 .content,
 .footer {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: $body-width;
   margin: 0 auto;
 }
 
 .site-header {
   font-family: $header-font-family;
   font-weight: 900;
+  text-align: center;
+  @media screen and (min-width: $body-width) {
+    text-align: left;
+  }
   .site-title {
     font-size: 1.25em;
     display: block;
-    text-align: center;
+    @media screen and (min-width: $body-width) {
+      float: left;
+    }
   }
-  text-align: center;
   .main-nav {
+    margin-top: 0.707rem;
+    @media screen and (min-width: $body-width) {
+      margin-top: 0;
+      display: inline-block;
+      float: right;
+    }
     a {
-      font-size: 0.8rem;
-      margin-right: 1em;
+      font-size: 0.707rem;
+      margin-right: 1rem;
       &:last-child {
         margin-right: 0;
       }
