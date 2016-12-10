@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Nuggets from DrupalCamp Atlanta
 summary: My thoughts and takeaways from DrupalCamp Atlanta 2013.
 ---

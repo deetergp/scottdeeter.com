@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Smoking and Walking
 summary: Many years ago I had a nasty compulsive habit. I smoked.
 ---

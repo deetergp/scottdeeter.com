@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Activity Tracking & Pedometer++
 summary: My thoughts on David Smith's excellent Pedometer++ app. (I like it!)
 ---

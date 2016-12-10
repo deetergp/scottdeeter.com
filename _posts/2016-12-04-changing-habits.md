@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Changing Habits
 summary: An update about where my walking habit has taken me since my last post on the subject.
 ---

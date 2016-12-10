@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Getting to Know Meteor
 summary: Slides and a summary of the Intro to Meteor talk I gave at FOSS Charlotte.
 ---

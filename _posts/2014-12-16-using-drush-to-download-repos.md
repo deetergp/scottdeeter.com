@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Using Drush to Download Repos
 summary: I recently found myself in a situation where I needed to programmatically download a module's git repo rather than the module itself.
 ---

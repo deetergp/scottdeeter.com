@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Gear-Up for the Zombie Apocalypse
 summary: At any given point, when pressed, I can rattle off a laundry-list of motorcycles that I lust after.
 ---

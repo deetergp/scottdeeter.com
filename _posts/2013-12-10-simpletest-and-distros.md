@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: SimpleTest and Distros
 summary: Using SimpleTest to run tests against Drupal distributions.
 ---

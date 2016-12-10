@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Worldwide Meteor Day
 summary: The Meteor framework goes 1.0 this week and we are having a party!
 ---
